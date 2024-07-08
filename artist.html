@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Detail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="sidebar-active">
+        <label id="overlay" for="sidebar-active"></label>
+        <a href="index.html" class="logo-link"><img src="images/ArtsitsAndSongs/l&c.png" alt="Logo" class="logo"></a>
+        <input type="text" id="search-bar" placeholder="Search for songs...">
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+            
+                <a href="index.html">Home</a>
+                <a href="artists.html">Artists</a>
+                <a href="songs.html">Songs</a>
+                <a href="favorites.html">Favorites</a>
+            
+        </div>
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+    </nav>
+    <h1 id="artist-name"></h1>
+    <img id="artist-image" src="" alt="Artist Image">
+    <p id="artist-bio"></p>
+    <div id="artist-detail">
+        <h2>Songs by this Artist</h2>
+        <ul id="artist-song-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+#backgroundImage{
+  height: 200px;
+}
+
+#selection{
+  display: flex;
+  width: 100%;
+  font-weight: bold;
+}
+
+.selectCard{
+  max-width: 500px;
+  min-width: 200px;
+}
+
+@media (max-width:768px) {
+  #selection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+    align-self: center;
+  } 
+  .selectCard{
+    width: 75%;
+    margin-left: auto;                          
+    margin-right: auto;
+  }
+}
