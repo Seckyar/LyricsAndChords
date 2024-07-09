@@ -1,9 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
-    displayFavorites();
+    loadFavorites();
+    document.getElementById('search-bar').addEventListener('input', filteredSongs);
 });
 
-function displayFavorites() {
+function loadFavorites() {
   let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+  displayFavorites(favorites);
+}
+
+function displayFavorites(favorites) {
   const favoritesListElement = document.getElementById('favorites-list');
   favoritesListElement.innerHTML = '';
   favorites.forEach(song => {
@@ -15,5 +20,13 @@ function displayFavorites() {
       li.appendChild(a);
       favoritesListElement.appendChild(li);
   });
+}
+
+function filteredSongs() {
+  const query = document.getElementById('search-bar').value.toLowerCase();
+  let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+  const filteredSongs = favorites.filter(song => song.title.toLowerCase().includes(query));
+
+  displayFavorites(filteredSongs);
 }
 
