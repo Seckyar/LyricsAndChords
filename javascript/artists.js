@@ -1,6 +1,7 @@
-loadArtists();
-document.getElementById('search-bar').addEventListener('input', filterArtists);
-
+document.addEventListener('DOMContentLoaded', function() {
+    loadArtists();
+    document.getElementById('search-bar').addEventListener('input', filterArtists);
+});
 function loadArtists() {
   fetch('artists.json')
       .then(response => response.json())

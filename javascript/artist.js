@@ -1,5 +1,7 @@
-loadArtistDetail();
-document.getElementById('search-bar').addEventListener('input', filterArtistSongs);
+document.addEventListener('DOMContentLoaded', function() {
+    loadArtistDetail();
+    document.getElementById('search-bar').addEventListener('input', filterArtistSongs);
+});
 
 function loadArtistDetail() {
   const params = new URLSearchParams(window.location.search);

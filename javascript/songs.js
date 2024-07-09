@@ -1,5 +1,7 @@
-loadSongs();
-document.getElementById('search-bar').addEventListener('input', filterContent);
+document.addEventListener('DOMContentLoaded', function() {
+  loadSongs();
+  document.getElementById('search-bar').addEventListener('input', filterContent);
+});
 
 function loadSongs() {
   fetch('songs.json')
