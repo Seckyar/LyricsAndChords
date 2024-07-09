@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                   const favorites = getFavorites();
                   const isFavorite = favorites.some(fav => fav.artist === artist && fav.title === title);
                   const favoriteButton = document.createElement('button');
-                  
+                  favoriteButton.id='fav-button';
                   if (isFavorite) {
                       favoriteButton.textContent = 'Remove from Favorites';
                       favoriteButton.addEventListener('click', () => {
@@ -32,8 +32,8 @@ document.addEventListener('DOMContentLoaded', function() {
                           favoriteButton.textContent = 'Remove from Favorites';
                       });
                   }
-  
-                  document.body.appendChild(favoriteButton);
+                  const divElement=document.getElementById('song-detail');
+                  divElement.appendChild(favoriteButton);
               } else {
                   console.error('Song not found');
               }

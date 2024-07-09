@@ -113,8 +113,8 @@ nav a:hover{
   width: 100%;
 }
 
-#return-button{
-  width: 20%;
+#return-button,#fav-button{
+  min-width: 20%;
   background-color: #0b6285;
   border: none;
   color: white;
@@ -123,7 +123,7 @@ nav a:hover{
   border-radius: 3px;
   transition: all 0.3s;
 }
-#return-button:hover{
+#return-button:hover,#fav-button:hover{
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
