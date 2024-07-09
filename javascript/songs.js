@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   loadSongs();
-  document.getElementById('search-bar').addEventListener('input', filterContent);
+  document.getElementById('search-bar').addEventListener('input', filteredSongs);
 });
 
 function loadSongs() {
