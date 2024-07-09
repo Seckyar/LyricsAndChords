@@ -6,9 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
     } else if (document.getElementById('artist-list') && !document.getElementById('song-list')) {
         loadArtists();
         document.getElementById('search-bar').addEventListener('input', filterArtists);
-    } else if (document.getElementById('artist-song-list')) {
-        loadArtistDetail();
-        document.getElementById('search-bar').addEventListener('input', filterArtistSongs);
     } else if (document.getElementById('song-title')) {
         loadSongDetail();
     } else if (document.getElementById('favorites-list')) {
@@ -45,7 +42,7 @@ function displaySongs(songs) {
         const a = document.createElement('a');
         a.id='List';
         a.textContent = song.title;
-        a.href = 'song.html?title=' + encodeURIComponent(song.title);
+        a.href = 'song.html?title=' + encodeURIComponent(song.title)+'&artist='+encodeURIComponent(song.artist);
         li.appendChild(a);
         songListElement.appendChild(li);
     });
@@ -81,28 +78,6 @@ function filterArtists() {
     displayArtists(filteredArtists);
 }
 
-function filterArtistSongs() {
-    const query = document.getElementById('search-bar').value.toLowerCase();
-    const artistName = document.getElementById('artist-name').textContent;
-    const filteredSongs = allSongs.filter(song => song.artist === artistName && song.title.toLowerCase().includes(query));
-
-    displayArtistSongs(filteredSongs);
-}
-
-function displayArtistSongs(songs) {
-    const artistSongListElement = document.getElementById('artist-song-list');
-    artistSongListElement.innerHTML = '';
-    songs.forEach(song => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.id='List';
-        a.textContent = song.title;
-        a.href = 'song.html?title=' + encodeURIComponent(song.title);
-        li.appendChild(a);
-        artistSongListElement.appendChild(li);
-    });
-}
-
 function loadArtistDetail() {
     const params = new URLSearchParams(window.location.search);
     const artistName = params.get('name');
@@ -127,21 +102,12 @@ function loadArtistDetail() {
         });
 }
 
-function loadSongsByArtist(artistName) {
-    fetch('songs.json')
-        .then(response => response.json())
-        .then(songs => {
-            allSongs = songs;
-            const artistSongs = allSongs.filter(song => song.artist === artistName);
-            displayArtistSongs(artistSongs); // Display all songs by default
-        });
-    const artistSongs = allSongs.filter(song => song.artist === artistName);
-    displayArtistSongs(artistSongs);
-}
+
 
 function loadSongDetail() {
     const params = new URLSearchParams(window.location.search);
     const title = params.get('title');
+    const artist = params.get('artist');
 
     if (!title) {
         document.getElementById('song-detail').innerHTML = '<p>Song not found</p>';
@@ -151,7 +117,9 @@ function loadSongDetail() {
     fetch('songs.json')
         .then(response => response.json())
         .then(songs => {
-            const song = songs.find(s => s.title === title);
+            const artistName = songs.filter(s => s.artist === artist);
+            console.log(artistName);
+            const song = artistName.find(s => s.title === title)
             if (song) {
                 document.getElementById('song-title').textContent = song.title;
                 document.getElementById('song-artist').textContent = 'Artist: ' + song.artist;
