@@ -28,14 +28,16 @@
 #selection{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 70px;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 70px;
 }
 
 .card{
   display: flex;
   flex-direction: column;
+  
 }
 
 .card h2{
@@ -43,11 +45,21 @@
   margin-bottom: 15px;
   text-align: center;
 }
-
+.card a img{
+  display: block;
+  border: none;
+}
+.card a{
+  display: inline-block;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
 .selectCard{
-  max-width: 400px;
+  display: flex;
+  justify-content: center;
   min-width: 200px;
-  
+  width: 100%;
   transition: all 0.3s;
   border-radius: 30px;
 }
@@ -56,12 +68,10 @@
   box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width:768px) {
+@media (max-width:1000px) {
   #selection{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-self: center;
     padding: 0;
   } 
   .card h2{
@@ -69,13 +79,13 @@
     margin-bottom: 5px;
   }
   .selectCard{
-    width: 75%;
-    margin-left: auto;                  
+    display: block;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    width: 75%;
   }
   #backgroundImage{
-    height: 200px;
+    height: 240px;
   }
   #backgroundImage h1{
     padding-top: 20px;
@@ -84,7 +94,7 @@
   }
   #backgroundImage p{
     color: white;
-    padding: 70px 100px 0 100px;
+    padding: 90px 80px 0 80px;
     font-size: 1rem;
     text-align: center;
   }
