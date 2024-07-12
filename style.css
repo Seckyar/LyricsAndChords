@@ -200,6 +200,42 @@ footer a{
   }
 }
 
+@media (prefers-color-scheme: dark){
+  body{
+    background-color: #1a2023;
+    color: #e1e1e1;
+  }
+  nav{
+    background-color: #063a4e;
+  }
+  #search-bar{
+    background-color: #165c78;
+    border: none;
+    border-radius: 3px;
+    color: #e1e1e1;
+  }
+  ::placeholder{
+    color: #e1e1e1;
+  }
+  li a{
+    color: #e1e1e1;
+  }
+  #backgroundImage{
+    filter: brightness(80%);
+  }
+  .selectCard{
+    filter: brightness(80%);
+  }
+  #List{
+    background-color: #2f2f2f;
+    border-bottom: 1px solid #676767;
+    box-shadow: 2px 2px 0 rgba(255, 255, 255, 0.1);
+  }
+  footer{
+    background-color: #063a4e;
+  }
+}
+
 
 /*nav ul {
   list-style-type: none;
