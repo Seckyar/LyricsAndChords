@@ -220,12 +220,7 @@ footer a{
   li a{
     color: #e1e1e1;
   }
-  #backgroundImage{
-    filter: brightness(80%);
-  }
-  .selectCard{
-    filter: brightness(80%);
-  }
+  
   #List{
     background-color: #2f2f2f;
     border-bottom: 1px solid #676767;
