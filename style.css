@@ -7,10 +7,9 @@
 
 body{
   background-color: white;
-  height: 1200px;
 }
 
-a{
+li a{
   color:black;
   text-decoration: none;
 }
@@ -125,6 +124,23 @@ nav a:hover{
 }
 #return-button:hover,#fav-button:hover{
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: #0b6285;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px 30px;
+}
+footer a{
+  color: white;
+  text-align: center;
+  
 }
 
 @media (max-width:768px) {
