@@ -8,8 +8,13 @@
 body{
   background-color: white;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
+.content{
+  flex: 1;
+}
 li a{
   color:black;
   text-decoration: none;
@@ -114,7 +119,7 @@ nav a:hover{
 }
 
 #return-button,#fav-button{
-  min-width: 20%;
+  min-width: 250px;
   background-color: #0b6285;
   border: none;
   color: white;
@@ -198,6 +203,10 @@ footer a{
   #song-image{
     height: 100%;
     max-width: 100%;
+  }
+
+  #return-button,#fav-button{
+    min-width: 150px;
   }
 
   footer{
