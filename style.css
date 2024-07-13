@@ -147,11 +147,11 @@ nav a:hover{
 }
 .photoAndBio p{
   line-height: 15px;
-  font-size: .7rem;
+  font-size: .8rem;
   padding: 0 15px;
   text-align: justify;
   margin: 10px 0;
-}*/
+}
 
 footer{
   display: flex;
