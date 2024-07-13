@@ -1,242 +1,272 @@
 [
-  {
-      "name": "ကျားပေါက်(BigBag)",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ကျားပေါက်(BigBag).jpg"
-  },
-  {
-      "name": "ကျော်ဟိန်း",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ကျော်ဟိန်း.jpg"
-  },
-  {
-      "name": "ကော်နီ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ကော်နီ.jpg"
-  },
-  {
-      "name": "ခင်မောင်တိုး",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ခင်မောင်တိုး.jpeg"
-  },
-  {
-      "name": "ချစ်ကောင်း",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ချစ်ကောင်း.jpg"
-  },
-  {
-      "name": "ဂျီလတ်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဂျီလတ်.jpg"
-  },
-  {
-      "name": "ဂျေမောင်မောင်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဂျေမောင်မောင်.jpg"
-  },
-  {
-      "name": "ဂရေဟမ်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဂရေဟမ်.jpg"
-  },
-  {
-      "name": "စည်သူလွင်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/စည်သူလွင်.jpg"
-  },
-  {
-      "name": "စိုးပိုင်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/စိုးပိုင်.jpeg"
-  },
-  {
-      "name": "စိုးလွင်လွင်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/စိုးလွင်လွင်.jpg"
-  },
-  {
-      "name": "စိုင်းထီးဆိုင်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/စိုင်းထီးဆိုင်.jpeg"
-  },
-  {
-      "name": "ဇော်ပိုင်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဇော်ပိုင်.jpeg"
-  },
-  {
-      "name": "ဇော်ဝင်းထွဋ်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဇော်ဝင်းထွဋ်.jpg"
-  },
-  {
-      "name": "ဇော်ဝင်းရှိန်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဇော်ဝင်းရှိန်.jpeg"
-  },
-  {
-      "name": "ထွန်းအိန္ဒြာဗို",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ထွန်းအိန္ဒြာဗို.jpg"
-  },
-  {
-      "name": "ထူးအယ်လင်း",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ထူးအယ်လင်း.jpg"
-  },
-  {
-      "name": "ထူးအိမ်သင်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ထူးအိမ်သင်.jpg"
-  },
-  {
-      "name": "ဒိုးလုံး",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဒိုးလုံး.jpg"
-  },
-  {
-      "name": "နီနီခင်ဇော",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/နီနီခင်ဇော.jpg"
-  },
-  {
-      "name": "နောနော်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/နောနော်.jpg"
-  },
-  {
-      "name": "ဖြိုးပြည့်စုံ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဖြိုးပြည့်စုံ.jpeg"
-  },
-  {
-      "name": "ဖြူဖြူကျော်သိန်း",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဖြူဖြူကျော်သိန်း.jpg"
-  },
-  {
-      "name": "ဖိုးကာ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဖိုးကာ.jpg"
-  },
-  {
-      "name": "ဖော်ကာ(Wanted)",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဖော်ကာ(Wanted).jpg"
-  },
-  {
-      "name": "ဗဒင်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဗဒင်.jpg"
-  },
-  {
-      "name": "ဗလ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဗလ.jpg"
-  },
-  {
-      "name": "ဘိုဖြူ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဘိုဖြူ.jpeg"
-  },
-  {
-      "name": "ဘိုဘို",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဘိုဘို.jpg"
-  },
-  {
-      "name": "မျိုးကြီး",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/မျိုးကြီး.jpg"
-  },
-  {
-      "name": "မေခလာ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/မေခလာ.jpg"
-  },
-  {
-      "name": "ရင်ဂို",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ရင်ဂို.jpg"
-  },
-  {
-      "name": "ရေမွန်(Idiots)",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ရေမွန်(Idiots).jpg"
-  },
-  {
-      "name": "လင်းလင်း",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/လင်းလင်း.jpg"
-  },
-  {
-      "name": "လွှမ်းမိုး",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/လွှမ်းမိုး.jpg"
-  },
-  {
-      "name": "လေးဖြူ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/လေးဖြူ.jpg"
-  },
-  {
-      "name": "ဝန",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဝန.jpg"
-  },
-  {
-      "name": "ဝိုင်ဝိုင်း",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဝိုင်ဝိုင်း.jpg"
-  },
-  {
-      "name": "ဝေလ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဝေလ.jpg"
-  },
-  {
-      "name": "သာဒီးလူ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/သာဒီးလူ.jpg"
-  },
-  {
-      "name": "ဟန်ထွန်း",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဟန်ထွန်း.jpg"
-  },
-  {
-      "name": "ဟန်နေတာ(EternalGosh)",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဟန်နေတာ(EternalGosh).jpg"
-  },
-  {
-      "name": "ဟေမာနေဝင်း",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/ဟေမာနေဝင်း.jpg"
-  },
-  {
-      "name": "အငဲ",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/အငဲ.jpg"
-  },
-  {
-      "name": "အရိုး",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/အရိုး.jpeg"
-  },
-  {
-      "name": "အောင်ထက်",
-      "bio": "",
-      "image": "images/ArtistsAndSongs/အောင်ထက်.jpg"
-  },
-  {
-    "name": "ကိုင်ဇာ",
-    "bio": "",
-    "image": "images/ArtistsAndSongs/ကိုင်ဇာ.jpeg"
- },
- {
-  "name": "ပူစူး",
-  "bio": "",
-  "image": "images/ArtistsAndSongs/ပူစူး.jpeg"
- }
+    {
+        "name": "Rဇာနည်",
+        "bio": "Zar Ni Myo Nyunt, ဇာနည်မျိုးညွန့်, on 6 February 1978), better known as R Zar Ni (Burmese: Rဇာနည်) is a Burmese singer. He is best known for Burmese language covers of Western and Asian (Cantopop, Mandopop K-pop) pop songs.",
+        "image": "images/ArtistsAndSongs/Rဇာနည်.jpeg"
+    },
+    {
+        "name": "ကျားပေါက်(BigBag)",
+        "bio": "Kyar Pauk (Burmese: ကျားပေါက်), born Han Htue Lwin (ဟန်ထူးလွင်), is a Burmese singer-songwriter and also known as a multi instrumentalist and music producer. He is best known for his punk music and founding the famous punk rock band Big Bag. He is the son of Ringo, who is a famous singer.",
+        "image": "images/ArtistsAndSongs/ကျားပေါက်(BigBag).jpg"
+    },
+    {
+        "name": "ကျော်ဟိန်း",
+        "bio": "Kyaw Hein (ကျော်ဟိန်း,  born Kyaw Htay, 14 July 1947 – 11 July 2020) was a Burmese actor, film director and singer. He is the five-time winner of the Myanmar Motion Picture Academy Awards. He starred in and directed hundreds of films, and was considered one of the most important actors in Burmese cinema.[1] He retired in 2008, and became a Theravada Buddhist monk,[2] with the Dharma name Kittisāra (ကိတ္တိသာရ). He died as a monk on July 11, 2020, in Canberra, Australia.",
+        "image": "images/ArtistsAndSongs/ကျော်ဟိန်း.jpg"
+    },
+    {
+        "name": "ကိုင်ဇာ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ကိုင်ဇာ.jpeg"
+    },
+    {
+        "name": "ကော်နီ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ကော်နီ.jpg"
+    },
+    {
+        "name": "ခင်မောင်တိုး",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ခင်မောင်တိုး.jpeg"
+    },
+    {
+        "name": "ခင်မောင်ထူး",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ခင်မောင်ထူး.jpg"
+    },
+    {
+        "name": "ချစ်ကောင်း",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ချစ်ကောင်း.jpg"
+    },
+    {
+        "name": "ခိုင်ထူး",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ခိုင်ထူး.jpg"
+    },
+    {
+        "name": "ဂျီလတ်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဂျီလတ်.jpg"
+    },
+    {
+        "name": "ဂျေမောင်မောင်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဂျေမောင်မောင်.jpg"
+    },
+    {
+        "name": "ဂရေဟမ်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဂရေဟမ်.jpg"
+    },
+    {
+        "name": "စည်သူလွင်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/စည်သူလွင်.jpg"
+    },
+    {
+        "name": "စိုးပိုင်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/စိုးပိုင်.jpeg"
+    },
+    {
+        "name": "စိုးလွင်လွင်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/စိုးလွင်လွင်.jpg"
+    },
+    {
+        "name": "စိုင်းထီးဆိုင်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/စိုင်းထီးဆိုင်.jpeg"
+    },
+    {
+        "name": "ဇော်ပိုင်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဇော်ပိုင်.jpeg"
+    },
+    {
+        "name": "ဇော်ဝင်းထွဋ်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဇော်ဝင်းထွဋ်.jpg"
+    },
+    {
+        "name": "ဇော်ဝင်းရှိန်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဇော်ဝင်းရှိန်.jpeg"
+    },
+    {
+        "name": "ထွန်းအိန္ဒြာဗို",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ထွန်းအိန္ဒြာဗို.jpg"
+    },
+    {
+        "name": "ထူးအယ်လင်း",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ထူးအယ်လင်း.jpg"
+    },
+    {
+        "name": "ထူးအိမ်သင်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ထူးအိမ်သင်.jpg"
+    },
+    {
+        "name": "ဒိုးလုံး",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဒိုးလုံး.jpg"
+    },
+    {
+        "name": "နီနီခင်ဇော်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/နီနီခင်ဇော်.jpg"
+    },
+    {
+        "name": "နောနော်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/နောနော်.jpg"
+    },
+    {
+        "name": "ပူစူး",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ပူစူး.jpeg"
+    },
+    {
+        "name": "ဖြိုးပြည့်စုံ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဖြိုးပြည့်စုံ.jpeg"
+    },
+    {
+        "name": "ဖြူဖြူကျော်သိန်း",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဖြူဖြူကျော်သိန်း.jpg"
+    },
+    {
+        "name": "ဖိုးကာ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဖိုးကာ.jpg"
+    },
+    {
+        "name": "ဖိုးချို",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဖိုးချို.jpg"
+    },
+    {
+        "name": "ဖော်ကာ(Wanted)",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဖော်ကာ(Wanted).jpg"
+    },
+    {
+        "name": "ဗဒင်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဗဒင်.jpg"
+    },
+    {
+        "name": "ဗလ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဗလ.jpg"
+    },
+    {
+        "name": "ဘိုဖြူ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဘိုဖြူ.jpeg"
+    },
+    {
+        "name": "ဘိုဘို",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဘိုဘို.jpg"
+    },
+    {
+        "name": "မျိုးကြီး",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/မျိုးကြီး.jpg"
+    },
+    {
+        "name": "မာရဇ္ဇ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/မာရဇ္ဇ.jpg"
+    },
+    {
+        "name": "မေခလာ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/မေခလာ.jpg"
+    },
+    {
+        "name": "မေဆွိ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/မေဆွိ.jpg"
+    },
+    {
+        "name": "ရင်ဂို",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ရင်ဂို.jpg"
+    },
+    {
+        "name": "ရေမွန်(Idiots)",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ရေမွန်(Idiots).jpg"
+    },
+    {
+        "name": "လင်းလင်း",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/လင်းလင်း.jpg"
+    },
+    {
+        "name": "လွှမ်းမိုး",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/လွှမ်းမိုး.jpg"
+    },
+    {
+        "name": "လေးဖြူ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/လေးဖြူ.jpg"
+    },
+    {
+        "name": "ဝန",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဝန.jpg"
+    },
+    {
+        "name": "ဝိုင်ဝိုင်း",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဝိုင်ဝိုင်း.jpg"
+    },
+    {
+        "name": "ဝေလ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဝေလ.jpg"
+    },
+    {
+        "name": "သာဒီးလူ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/သာဒီးလူ.jpg"
+    },
+    {
+        "name": "ဟန်ထွန်း",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဟန်ထွန်း.jpg"
+    },
+    {
+        "name": "ဟန်နေတာ(EternalGosh)",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဟန်နေတာ(EternalGosh).jpg"
+    },
+    {
+        "name": "ဟေမာနေဝင်း",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/ဟေမာနေဝင်း.jpg"
+    },
+    {
+        "name": "အငဲ",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/အငဲ.jpg"
+    },
+    {
+        "name": "အရိုး",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/အရိုး.jpeg"
+    },
+    {
+        "name": "အောင်ထက်",
+        "bio": "",
+        "image": "images/ArtistsAndSongs/အောင်ထက်.jpg"
+    }
 ]

@@ -145,6 +145,13 @@ nav a:hover{
 .photoAndBio{
   text-align: center;
 }
+.photoAndBio p{
+  line-height: 15px;
+  font-size: .7rem;
+  padding: 0 15px;
+  text-align: justify;
+  margin: 10px 0;
+}*/
 
 footer{
   display: flex;
