@@ -65,13 +65,13 @@ nav .links-container a{
   font-weight: bold;
   display: flex;
   align-items: center;
-  transition: all 0.6s;
+  transition: all 0.3s;
   text-decoration: none;
   color: white;
 }
 
 nav a:hover{
-  color:rgb(41, 185, 247);
+  color:rgb(160, 246, 255);
 }
 
 #sidebar-active{
@@ -90,8 +90,12 @@ nav a:hover{
   border-radius: 3px;
 }
 
-#results,#artist-song-list,#favorites-list{
+.alignCenter{
   text-align: center;
+}
+
+#Artists h1,#Songs h1,#Favorites h1{
+  margin: 7px;
 }
 
 #List{
@@ -102,7 +106,7 @@ nav a:hover{
   justify-content: center;
   box-shadow: 2px 2px 8px rgb(11, 98, 133,0.1);
   border-radius: 8px;
-  margin: 5px 40px;
+  margin: 5px 15px;
   transition: all 0.5s;
 }
 
@@ -134,23 +138,22 @@ nav a:hover{
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
+#artist-name{
+  padding: 5px 0 0 0;
+}
+
 #artist-image{
   height: 200px;
   width: 200px;
   border-radius: 10px;
+  display: inline-block;
 }
-#artist-detail{
-  text-align: center;
-}
-.photoAndBio{
-  text-align: center;
-}
+
 .photoAndBio p{
-  line-height: 15px;
-  font-size: .8rem;
+  line-height: 20px;
+  font-size: 1rem;
   padding: 0 15px;
   text-align: justify;
-  margin: 10px 0;
 }
 
 footer{
@@ -184,7 +187,7 @@ footer a{
 
     background-color: #0b6285;
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.253);
-    transition: 0.7s ease-out;
+    transition: 0.5s ease-out;
   }
 
   nav .links-container a{
@@ -230,8 +233,17 @@ footer a{
     min-width: 150px;
   }
 
+  .photoAndBio p{
+    line-height: 15px;
+    font-size: .8rem;
+    padding: 0 15px;
+    text-align: justify;
+    margin: 10px 0;
+  }
+
   footer{
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    margin-top: 10px;
   }
 }
 
@@ -265,8 +277,10 @@ footer a{
     border-bottom: 1px solid #676767;
     box-shadow: 2px 2px 0 rgba(255, 255, 255, 0.1);
   }
+ 
   footer{
     background-color: #063a4e;
+    
     
   }
 }
