@@ -16,6 +16,7 @@
 #backgroundImage p{
   color: white;
   padding-top: 400px;
+  padding-bottom: 50px;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -97,7 +98,7 @@
   }
   #backgroundImage p{
     color: white;
-    padding: 90px 80px 0 80px;
+    padding: 90px 80px 10px 80px;
     font-size: 1rem;
     text-align: center;
   }
