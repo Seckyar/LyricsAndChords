@@ -134,6 +134,18 @@ nav a:hover{
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
+#artist-image{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+#artist-detail{
+  text-align: center;
+}
+.photoAndBio{
+  text-align: center;
+}
+
 footer{
   display: flex;
   width: 100%;
