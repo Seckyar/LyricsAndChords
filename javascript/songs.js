@@ -15,6 +15,11 @@ function loadSongs() {
 function displaySongs(songs) {
   const songListElement = document.getElementById('song-list');
   songListElement.innerHTML = '';
+  if(songs.length===0){
+    document.getElementById('message').style.display='block';
+  }else{
+    document.getElementById('message').style.display='none';
+  }
   songs.forEach(song => {
       const li = document.createElement('li');
       const a = document.createElement('a');

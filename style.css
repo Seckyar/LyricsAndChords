@@ -86,6 +86,9 @@ nav a:hover{
   border: none;
   border-radius: 3px;
 }
+#message{
+  padding-top: 10px;
+}
 
 .alignCenter{
   text-align: center;
