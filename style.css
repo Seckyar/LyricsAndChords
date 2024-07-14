@@ -29,11 +29,11 @@ nav{
   align-items: center;
   background-color: #0b6285;
   width: 100%;
-  height: 70px;
+  height: 65px;
 }
 
 .logo{
-  padding: 6px;
+  padding: 6px 6px 6px 10px ;
   height: 40px;
   display: flex;
   align-items: center;
@@ -80,7 +80,7 @@ nav a:hover{
 }
 
 #search-bar {
-  margin: 0 10px 0 30px;
+  margin: 0 10px 0 20px;
   padding: 10px;
   width: 100%;
   border: none;
