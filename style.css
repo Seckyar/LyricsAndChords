@@ -20,10 +20,6 @@ li a{
   text-decoration: none;
 }
 
-/*#song-list a:visited,#artist-song-list a:visited,#artist-list a:visited{
-  color:#0b6285;
-}*/
-
 nav{
   position: sticky;
   top: 0;
@@ -33,13 +29,14 @@ nav{
   align-items: center;
   background-color: #0b6285;
   width: 100%;
-  height: 60px;
+  height: 70px;
 }
 
 .logo{
-  padding: 5px 0 5px 15px;
+  padding: 6px;
   height: 40px;
-  
+  display: flex;
+  align-items: center;
   cursor: pointer;
   transition: all 0.3s;
   

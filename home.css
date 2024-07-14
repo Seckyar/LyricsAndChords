@@ -70,7 +70,7 @@
   box-shadow: 6px 3px 3px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width:1000px) {
+@media (max-width:800px) {
   #selection{
     display: flex;
     flex-direction: column;
@@ -98,7 +98,7 @@
   }
   #backgroundImage p{
     color: white;
-    padding: 90px 80px 10px 80px;
+    padding: 90px 70px 10px 70px;
     font-size: 1rem;
     text-align: center;
   }
