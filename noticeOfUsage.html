@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Artists List</title>
+    <title>Lyrics&Chords</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-<div class="content">
     <nav>
         <input type="checkbox" id="sidebar-active">
         <label id="overlay" for="sidebar-active"></label>
         <a href="index.html" class="logo-link"><img src="images/ArtistsAndSongs/l&c.png" alt="Logo" class="logo"></a>
-        <input type="text" id="search-bar" placeholder="Search for artists...">
         <div class="links-container">
             <label for="sidebar-active" class="close-sidebar-button">
                 <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
@@ -28,17 +27,27 @@
             <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
         </label>
     </nav>
-    
-    <div id="Artists" class="alignCenter">
-        <h1>Artists List</h1>
-        <ul id="artist-list"></ul>
+    <div class="content Notice">
+      
+        <h1>Notice of Usage</h1>
+      <ul>
+        <li>The lyrics and chords on this website can be used freely by enthusiasts for personal enjoyment.</li>
+
+        <li>However, if you save and re-upload the image, (in respect of the original owner's effort and goodwill) it is necessary to give credit to the original owner.</li>
+
+        <li>For use in profit-generating apps, YouTube videos, and web pages,
+        you must obtain permission from the page owner before use.</li>
+      
+      </ul>
+      <div class="Thanks">
+        <h2>Special Thanks</h2>
+        <p>I would like to thanks to the <a href="https://www.facebook.com/profile.php?id=100063980355353">NT Lyric & Chord</a> for generously allowing us to use their photos of lyrics and chords. Your high-quality images have greatly enhanced our content. Please visit their page for more amazing content.</p>
+      </div>
     </div>
-</div>
     <footer>
-        <p>Copyrights &copy; 2024 Lyrics & Chords.<br>All rights reserved.</p>
-        <a href=noticeOfUsage.html>Notice Of Usage</a>
+            <p>Copyrights &copy; 2024 Lyrics & Chords.<br>All rights reserved.</p>
+            <a href=noticeOfUsage.html>Notice Of Usage</a>
     </footer>
     <script src="javascript/script.js"></script>
-    <script src="javascript/artists.js"></script>
 </body>
 </html>

@@ -93,6 +93,9 @@ nav a:hover{
 .alignCenter{
   text-align: center;
 }
+.alignCenter ul{
+  list-style-type: none;
+}
 
 #Artists h1,#Songs h1,#Favorites h1{
   margin: 7px;
@@ -155,6 +158,28 @@ nav a:hover{
   padding: 0 15px;
   text-align: justify;
 }
+.Notice{
+  height: 100%;
+  width: 500px;
+  margin: 0 auto ;
+  padding: 20px 20px;
+  text-align: justify;
+  font-size: 1.2rem;
+  
+}
+.Notice h1{
+  font-size: 2.6rem;
+}
+.Notice ul{
+  margin: 30px 20px;
+}
+.Thanks p{
+  margin: 15px 0;
+}
+.Thanks a{
+  color: black;
+  font-weight: bold;
+}
 
 footer{
   display: flex;
@@ -165,7 +190,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
-  padding: 10px 30px;
+  padding: 10px 15px;
 }
 footer a{
   color: white;
@@ -240,7 +265,22 @@ footer a{
     text-align: justify;
     margin: 10px 0;
   }
-
+  .Notice{
+    width: 100%;
+    line-height: 30px;
+    padding: 10px 15px;
+    text-align: justify;
+    font-size: 1rem;
+  }
+  .Notice h1{
+    font-size: 2rem;
+  }
+  .Notice ul{
+    margin-right: 0;
+  }
+  .Thanks p{
+    margin: 10px 0;
+  }
   footer{
     font-size: 0.8rem;
     margin-top: 10px;
@@ -277,11 +317,13 @@ footer a{
     border-bottom: 1px solid #676767;
     box-shadow: 2px 2px 0 rgba(255, 255, 255, 0.1);
   }
+  .Thanks a{
+    color: white;
+    font-weight: bold;
+  }
  
   footer{
     background-color: #063a4e;
-    
-    
   }
 }
 
