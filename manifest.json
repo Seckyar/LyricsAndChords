@@ -1,48 +1,20 @@
 {
-"name": "Lyrics And Chords",
-"short_name": "L&C",
-"start_url": ".",
-"display": "standalone",
-"description": "A description for your application",
-"lang": " The default language of your application",
-"dir": "auto",
-"theme_color": "#0b6285",
-"background_color": "#ffffff",
-"orientation": "any",
-"icons": [
-  {
-    "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
-    "sizes": "512x512",
-    "type": "image/png",
-    "purpose": "maskable"
-  },
-  {
-    "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
-    "sizes": "192x192",
-    "type": "image/png",
-    "purpose": "any"
-  }
-],
-"screenshots": [
-  {
-    "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
-    "sizes": "2880x1800",
-    "type": "image/png",
-    "description": "A screenshot of the home page"
-  }
-],
-"related_applications": [
-  {
-    "platform":"windows",
-    "url": " The URL to your app in that app store"
-  }
-],
-"prefer_related_applications": false,
-"shortcuts": [
-  {
-    "name":"The name you would like to be displayed for your shortcut",
-    "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
-    "description":"A description of the functionality of this shortcut"
-  }
-]
+  "name": "Music Lyrics and Chords",
+  "short_name": "MusicApp",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffa500",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
