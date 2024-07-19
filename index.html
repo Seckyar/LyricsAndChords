@@ -22,6 +22,7 @@
                 <a href="artists.html">Artists</a>
                 <a href="songs.html">Songs</a>
                 <a href="favorites.html">Favorites</a>
+<button id="installButton" style="display: block;">Install App</button>
             
         </div>
         <label for="sidebar-active" class="open-sidebar-button">
@@ -52,5 +53,40 @@
             <a href=noticeOfUsage.html>Notice Of Usage</a>
     </footer>
     <script src="javascript/script.js"></script>
+<script>
+  let deferredPrompt;
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    // Prevent the mini-info bar from appearing on mobile
+    e.preventDefault();
+    // Stash the event so it can be triggered later.
+    deferredPrompt = e;
+    // Update UI notify the user they can install the PWA
+    showInstallPromotion();
+  });
+
+  const installButton = document.getElementById('installButton');
+
+  installButton.addEventListener('click', (e) => {
+    // Hide the install button
+    installButton.style.display = 'none';
+    // Show the install prompt
+    deferredPrompt.prompt();
+    // Wait for the user to respond to the prompt
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('User accepted the A2HS prompt');
+      } else {
+        console.log('User dismissed the A2HS prompt');
+      }
+      deferredPrompt = null;
+    });
+  });
+
+  function showInstallPromotion() {
+    // Show your custom install prompt UI
+    installButton.style.display = 'block';
+  }
+</script>
 </body>
 </html>
