@@ -11,11 +11,11 @@ function loadFavorites() {
 function displayFavorites(favorites) {
   const favoritesListElement = document.getElementById('favorites-list');
   favoritesListElement.innerHTML = '';
-  if(favorites.length===0){
-    document.getElementById('message').style.display='block';
-  }else{
-    document.getElementById('message').style.display='none';
-  }
+    if(favorites.length===0){
+      document.getElementById('message').style.display='block';
+    }else{
+      document.getElementById('message').style.display='none';
+    }
   favorites.forEach(song => {
       const li = document.createElement('li');
       const a = document.createElement('a');

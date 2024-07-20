@@ -49,10 +49,12 @@
   margin-bottom: 15px;
   text-align: center;
 }
+
 .card a img{
   display: block;
   border: none;
 }
+
 .card a{
   display: inline-block;
   border: none;

@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+  loadSongDetail();
+});
+
+function loadSongDetail(){
   const urlParams = new URLSearchParams(window.location.search);
   const artist = urlParams.get('artist');
   const title = urlParams.get('title');
@@ -17,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
                   
                   const favorites = getFavorites();
                   const isFavorite = favorites.some(fav => fav.artist === artist && fav.title === title);
-                  const favoriteButton = document.createElement('button');
-                  favoriteButton.id='fav-button';
+                  //const favoriteButton = document.createElement('button');
+                  const favoriteButton=document.getElementById('fav-button');
                   if (isFavorite) {
                       favoriteButton.textContent = 'Remove from Favorites';
                       favoriteButton.addEventListener('click', () => {
@@ -32,13 +36,12 @@ document.addEventListener('DOMContentLoaded', function() {
                           favoriteButton.textContent = 'Remove from Favorites';
                       });
                   }
-                  const divElement=document.getElementById('song-detail');
-                  divElement.appendChild(favoriteButton);
+            
               } else {
                   console.error('Song not found');
               }
       })
-});
+}
 
 function getFavorites() {
   return JSON.parse(localStorage.getItem('favorites')) || [];
@@ -48,10 +51,15 @@ function addToFavorites(song) {
   const favorites = getFavorites();
   favorites.push(song);
   localStorage.setItem('favorites', JSON.stringify(favorites));
+
+  loadSongDetail();
+
 }
 
 function removeFromFavorites(artist, title) {
   let favorites = getFavorites();
   favorites = favorites.filter(fav => !(fav.artist === artist && fav.title === title));
   localStorage.setItem('favorites', JSON.stringify(favorites));
+
+  loadSongDetail();
 }

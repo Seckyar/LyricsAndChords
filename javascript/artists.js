@@ -16,11 +16,11 @@ function loadArtists() {
 function displayArtists(artists) {
   const artistListElement = document.getElementById('artist-list');
   artistListElement.innerHTML = '';
-  if(artists.length===0){
-    document.getElementById('message').style.display='block';
-  }else{
-    document.getElementById('message').style.display='none';
-  }
+    if(artists.length===0){
+      document.getElementById('message').style.display='block';
+    }else{
+      document.getElementById('message').style.display='none';
+    }
   artists.forEach(artist => {
       const li = document.createElement('li');
       const a = document.createElement('a');
