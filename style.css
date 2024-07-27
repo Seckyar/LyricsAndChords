@@ -255,7 +255,14 @@ footer a{
   }
 
   #return-button,#fav-button{
-    min-width: 150px;
+    flex:1;
+    min-width: 100px;
+  }
+  #twobutton{
+    display: flex;
+    gap:5px;
+    max-width: 100%;
+    padding: 0 5px;
   }
 
   .photoAndBio p{
