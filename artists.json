@@ -1,5 +1,50 @@
 [
     {
+        "name": "Alex",
+        "bio": "Alex is the stage name of a well-known Burmese(Myanmar) Rock, Pop & Alternative artist who started out as a singer-songwriter releasing pop rock hits albums and changed to Alternative around year 2000. He has already released more than 10 solo albums and numerous other albums in collaboration with other Myanmar artists. ",
+        "image": "images/ArtistsAndSongs/Alex.jpg"
+    },
+    {
+        "name": "Lလွန်းဝါ",
+        "bio": "L Lun Wa (Burmese: Lလွန်းဝါ; also spelt L Lun War and L Loon War) is a Burmese pop singer of Kachin descent. He began pursuing a music career between the ages of 18 and 19. His aunt, L Khun Yi, was a prominent pop singer in the 1980s, while his cousin, L Seng Zi, is a pop singer.",
+        "image": "images/ArtistsAndSongs/Lလွန်းဝါ.jpg"
+    },
+    {
+        "name": "စိုင်းဆိုင်မောဝ်",
+        "bio": "Sai Hsai Mao (18 February 1948 - 17 July 2024) (Shan: ၸၢႆးသၢႆမၢဝ်း; born in Muse, Burma), also known as Sai Saing Maw (Burmese: စိုင်းဆိုင်မောဝ်), was a distinguished Burmese singer and musician of Shan descent. The most prominent singer of Shan pop music. Sai Hsai Mao gained popularity after 1968, when a Shan language program on Radio Thailand broadcast his music.",
+        "image": "images/ArtistsAndSongs/စိုင်းဆိုင်မောဝ်.jpg"
+    },
+    {
+        "name": "ဆောင်းဦးလှိုင်",
+        "bio": "Saung Oo Hlaing (Burmese: ဆောင်းဦးလှိုင်; born 8 December 1971) is a Burmese singer-songwriter. He is one of the few Burmese successful songwriters that do not rely on writing cover songs. In a 2008 interview, he claimed that he had not written a cover song since 2003, and that 95% of 400 plus songs he had written were of his own creation.",
+        "image": "images/ArtistsAndSongs/ဆောင်းဦးလှိုင်.jpg"
+    },
+    {
+        "name": "တင်ဇာမော်",
+        "bio": "Tin Zar Maw (Burmese: တင်ဇာမော်; born 7 February 1976) is a Burmese singer who debuted in the late 1990s. She is considered one of the most commercially successful Burmese female singers. Tin Zar Maw is currently one of the judges in Myanmar Idol.",
+        "image": "images/ArtistsAndSongs/တင်ဇာမော်.jpg"
+    },
+    {
+        "name": "နွဲ့ယဉ်ဝင်း",
+        "bio": "Nwe Yin Win (Burmese: နွဲ့ယဉ်ဝင်း; born Joyce Win on 23 April 1945) is a Burmese singer, considered one of the pioneers of modern Burmese pop music. She was one of the most popular singers in Myanmar in the 1970s, known for her Burmese language covers of American country and pop songs.",
+        "image": "images/ArtistsAndSongs/နွဲ့ယဉ်ဝင်း.jpg"
+    },
+    {
+        "name": "ဝိုင်းစုခိုင်သိန်း",
+        "bio": "Wyne Su Khine Thein (Burmese: ဝိုင်းစုခိုင်သိန်း; born 24 December 1986) is a Burmese singer and actress. She is best known for her pleasant voice. Her debut album Mat Lout Sayar was released in 2009 and it was popular among audiences.",
+        "image": "images/ArtistsAndSongs/ဝိုင်းစုခိုင်သိန်း.jfif"
+    },
+    {
+        "name": "အောင်ရင်",
+        "bio": "Aung Yin (Burmese: အောင်ရင်,; born 28 June 1964) is a Burmese pop singer, who reached the height of his career in the late 1980s to early 1990s.",
+        "image": "images/ArtistsAndSongs/အောင်ရင်.jpg"
+    },
+    {
+        "name": "ဆုန်သင်းပါရ်",
+        "bio": "Sone Thin Par (Burmese: ဆုန်သင်းပါရ်; also spelt Sung Tin Par, Sung Thin Par, Sung Tin Par) is a prominent Burmese rock singer-musician of ethnic Chin descent. She rose to fame in 1998, and ended a 7-year hiatus from the music industry in December 2012, with the release of her fourth solo album, Thit (သစ်). She was selected to sing the 2013 Southeast Asian Games' official song, \"Colorful Garden\" (ရောင်စုံဥယျာဉ်) in December 2013.",
+        "image": "images/ArtistsAndSongs/ဆုန်သင်းပါရ်.jpg"
+    },
+    {
         "name": "Rဇာနည်",
         "bio": "Zar Ni Myo Nyunt, ဇာနည်မျိုးညွန့်, on 6 February 1978), better known as R Zar Ni (Burmese: Rဇာနည်) is a Burmese singer. He is best known for Burmese language covers of Western and Asian (Cantopop, Mandopop K-pop) pop songs.",
         "image": "images/ArtistsAndSongs/Rဇာနည်.jpeg"
