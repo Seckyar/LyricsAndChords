@@ -11,12 +11,12 @@ function loadSongDetail(){
       .then(response => response.json())
       .then(songs => {
         const artistName = songs.filter(s => s.artist === artist);
-        console.log(artistName);
         const song = artistName.find(s => s.title === title);
 
               if (song) {
                   document.getElementById('song-title').textContent = song.title;
                   document.getElementById('song-artist').textContent = artist;
+                  document.getElementById('song-artist').href = 'artist.html?name=' + encodeURIComponent(artist);
                   document.getElementById('song-image').src = song.image;
                   
                   const favorites = getFavorites();
