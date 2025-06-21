@@ -318,11 +318,6 @@ footer a{
     color: white;
   }
   
-  #song-image{
-    filter: invert();
-    z-index: 10;
-  }
-  
   #search-bar{
     background-color: #165c78;
     border: none;
