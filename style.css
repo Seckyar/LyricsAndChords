@@ -317,6 +317,11 @@ footer a{
   #song-artist{
     color: white;
   }
+  
+  #song-image{
+    filter: invert();
+  }
+  
   #search-bar{
     background-color: #165c78;
     border: none;
