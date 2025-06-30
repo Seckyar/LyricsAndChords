@@ -207,12 +207,21 @@ footer a{
 }
 
 a {
-  -webkit-tap-highlight-color: transparent; /* For mobile Safari */
+  /* Remove mobile tap highlight (esp. Safari/Chrome on touch devices) */
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+
+  /* Remove any browser applied outline or background on focus/active */
+  outline: none;
+  text-decoration: none;
 }
 
-a:active {
-  background-color: transparent;
-  color: inherit;
+a:focus,
+a:active,
+a:hover {
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 @media (max-width:768px) {
