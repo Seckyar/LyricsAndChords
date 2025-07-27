@@ -219,7 +219,7 @@ a {
 a:focus,
 a:active,
 a:hover {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
   outline: none !important;
   box-shadow: none !important;
 }
